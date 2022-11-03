@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  max-width: 300px;
+  margin: auto;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.but{
+  margin-top: 30px;
+  width: 300px;
+}
